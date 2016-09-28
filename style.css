@@ -14,7 +14,7 @@ a {text-decoration: none;
 
 img {
     max-width: 100%;
-    height: auto;
+  	/*max-height: 100%;*/
     width: auto\9; /* ie8 */
 }
 
@@ -66,8 +66,8 @@ img {
 	float:right;
 	background-color:#8b28be;
 	width: 60%;
-	height: 300px;
-	margin:50px;
+	height: 400px;
+	margin:30px;
 	padding: 30px;
 	background-image: url("images/mainbackground.jpg");
 	overflow-y: scroll;
@@ -123,7 +123,8 @@ img {
 	.main{
 		padding:10px;
 		margin:10px;
-		margin-left: 55px;
+		
+		width:100%;
 	}
 
 }
